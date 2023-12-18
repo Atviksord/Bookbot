@@ -5,7 +5,7 @@ def Main():
     booklist = GetBook(path)
     letterdict= CountLetters(booklist)
     mydic = ShowLetters(letterdict)
-    mydic.sort(reverse = True, key=sort_on)
+    mydic.sort(reverse = True)
     print(f' -- Begin report of {path} ---')
     print(f'{CountWords(booklist)} words found in the document')
     print('-------------------------------------------------------')
